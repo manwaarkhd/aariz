@@ -33,9 +33,13 @@ We would like to express our heartfelt gratitude to all of the clinicians at <a 
 Please consider citing our <a href="https://doi.org/10.1038/s41597-025-05542-3">dataset</a> in your research if you find it helpful to your study.
 ```
 @article{
-  title={'Aariz: A Benchmark Dataset for Automatic Cephalometric Landmark Detection and CVM Stage Classification},
+  title={A Benchmark Dataset for Automatic Cephalometric Landmark Detection and CVM Stage Classification},
   author={Khalid, Muhammad Anwaar and Zulfiqar, Kanwal and Bashir, Ulfat and Shaheen, Areeba and Iqbal, Rida and Rizwan, Zarnab and Rizwan, Ghina and Fraz, Muhammad Moazam}
-  journal={arXiv preprint arXiv:2302.07797},
-  year={2023}
+  journal={Scientific data},
+  volume={12},
+  number={1},
+  pages={1--13},
+  year={2025},
+  publisher={Nature Publishing Group}
 }
 ```
