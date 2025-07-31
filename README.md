@@ -31,7 +31,7 @@ We would like to express our heartfelt gratitude to all of the clinicians at <a 
 
 # Cite
 Please consider citing our <a href="https://doi.org/10.1038/s41597-025-05542-3">dataset</a> in your research if you find it helpful to your study.
-```
+```BibTeX
 @article{
   title={A Benchmark Dataset for Automatic Cephalometric Landmark Detection and CVM Stage Classification},
   author={Khalid, Muhammad Anwaar and Zulfiqar, Kanwal and Bashir, Ulfat and Shaheen, Areeba and Iqbal, Rida and Rizwan, Zarnab and Rizwan, Ghina and Fraz, Muhammad Moazam}
