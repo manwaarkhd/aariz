@@ -4,8 +4,8 @@ The accurate identification and precise localization of cephalometric landmarks 
 
 ## Updates
 - **31/07/2025**: Aariz has officially made its debut in [Nature Scientific Data](https://doi.org/10.1038/s41597-025-05542-3).
-- **21/05/2025**: Our dataset is now publicly available, offering the research community access to 1000 rigorously annotated cephalometric X-rays with 29 anatomical landmarks alongwith CVM stages.
-- **19/12/2022**: Aariz joins the **CEPHA29 Challenge** on Automatic Cephalometric Landmark Detection, held under **IEEE International Symposium on Biomedical Imaging (ISBI)**.
+- **21/05/2025**: The [dataset](https://doi.org/10.6084/m9.figshare.27986417.v1) is now **publicly available**, offering the research community access to 1000 annotated cephalometric X-rays with 29 anatomical landmarks & CVM stages.
+- **19/12/2022**: Aariz joins [CEPHA29 Challenge](https://biomedicalimaging.org/2023/challenges/) on Automatic Cephalometric Landmark Detection, held under **IEEE International Symposium on Biomedical Imaging (ISBI)**.
 
 <div align="center">
   <img src="docs/dataset-example-images.svg">
