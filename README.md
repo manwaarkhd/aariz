@@ -39,4 +39,11 @@ If you use our dataset in your research or projects, please consider citing our 
   year={2025},
   publisher={Nature Publishing Group UK London}
 }
+
+@article{khalid2022cepha29,
+  title={Cepha29: Automatic cephalometric landmark detection challenge 2023},
+  author={Khalid, Muhammad Anwaar and Zulfiqar, Kanwal and Bashir, Ulfat and Shaheen, Areeba and Iqbal, Rida and Rizwan, Zarnab and Rizwan, Ghina and Fraz, Muhammad Moazam},
+  journal={arXiv preprint arXiv:2212.04808},
+  year={2022}
+}
 ```
