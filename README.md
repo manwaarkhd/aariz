@@ -26,17 +26,17 @@ To facilitate the development of robust AI solutions for morphometric analysis, 
 # Acknowledgements
 We would like to express our heartfelt gratitude to all of the clinicians at <a href="https://www.riphah.edu.pk/dental-sciences/">Islamic International Dental College</a> for their tireless efforts and contributions to the annotation process of this dataset. This research would not have been possible without the support of <a href="https://www.riphah.edu.pk">Riphah International University</a>, Islamabad, Pakistan. We also extend our sincere thanks to the patients who provided consent for the use of their cephalometric images. Finally, we would like to acknowledge the valuable feedback and suggestions provided by the anonymous reviewers, which helped us improve the quality of this dataset.
 
-# Cite
-Please consider citing our dataset in your research if you find it helpful to your study.
+# Citation
+If you use our dataset in your research or projects, please consider citing our papers:
 ```BibTeX
-@article{
+@article{khalid2025benchmark,
   title={A Benchmark Dataset for Automatic Cephalometric Landmark Detection and CVM Stage Classification},
-  author={Khalid, Muhammad Anwaar and Zulfiqar, Kanwal and Bashir, Ulfat and Shaheen, Areeba and Iqbal, Rida and Rizwan, Zarnab and Rizwan, Ghina and Fraz, Muhammad Moazam}
-  journal={Scientific data},
+  author={Khalid, Muhammad Anwaar and Zulfiqar, Kanwal and Bashir, Ulfat and Shaheen, Areeba and Iqbal, Rida and Rizwan, Zarnab and Rizwan, Ghina and Fraz, Muhammad Moazam},
+  journal={Scientific Data},
   volume={12},
   number={1},
-  pages={1--13},
+  pages={1336},
   year={2025},
-  publisher={Nature Publishing Group}
+  publisher={Nature Publishing Group UK London}
 }
 ```
