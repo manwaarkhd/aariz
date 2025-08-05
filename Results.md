@@ -12,9 +12,9 @@ The comparison table of the results achived by different models is listed in the
 The baseline paper on the methodology for the dataset is Khan et al. (2025). The lanmdark wise results on the validation and test sets are listed in the below table. The metholofy achiedved an overall MRE of 1.69 mm with 81.18% of the landmarks lying in the clinically acceptable raneg of 2mm. The Top Performing Landmarks with MRE below 1.0 mm in either set are Me, Pog, S, Gn, UIT, Li, Ls, Sn, Pn. Four landmarks achieved a perfect 100% SDR in both sets. Landmarks with MRE > 2.0 mm in either set are N, Or, R, Ar, Co, Go, LPM, LMT, UPM, UMT. Yet, even these landmarks showed moderately strong SDRs (49%–87.34%) within 2.0 mm range.
 
 Landmark Categories Performance:
-Soft-tissue landmarks: All six had MRE below 2.0 mm → excellent performance.
-Dental landmarks: Performed well, with only minor deviations.
-Skeletal landmarks: Majority of errors >2.0 mm were found here.
+- Soft-tissue landmarks: Excellent performance, all six had MRE below 2.0 mm.
+- Dental landmarks: Performed well, with only a few minor deviations.
+- Skeletal landmarks: Majority of MRE > 2.0 mm were found here.
 
 ### Aariz Validation Set Results
 
