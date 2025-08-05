@@ -11,9 +11,9 @@ This section reports the performance of different models evaluated on the Aariz 
 The baseline model presented in Khan et al. (2025) forms the foundation of this dataset’s methodology. It achieves an overall MRE of 1.69 mm, with 81.18% of landmarks falling within the clinically acceptable threshold of 2.0 mm.
 
 ### Category-wise Performance:
-- Soft-tissue landmarks: Excellent performance, all six had MRE below 2.0 mm.
-- Dental landmarks: Performed well, with only a few minor deviations.
-- Skeletal landmarks: Majority of MRE > 2.0 mm were found here.
+- Soft-tissue landmarks: Achieved excellent performance, with all six registering MRE < 2.0 mm.
+- Dental landmarks: Performed consistently well, with minor deviations exceeding the 2.0 mm threshold.
+- Skeletal landmarks: Were generally more difficult, with most of the MREs > 2.0 mm falling in this category.
 
 ### Landmark Level Performance:
 - Top-Performing Landmarks: Landmarks with MRE < 1.0 mm in either validation or test sets include Me, Pog, S, Gn, UIT, Li, Ls, Sn, Pn. Notably, four landmarks reached 100% SDR in both sets.
