@@ -5,7 +5,7 @@ This section reports the performance of different models evaluated on the Aariz 
 | Paper        | MRE ± SD (mm)    | SDR 2.0mm (%) | SDR 2.5mm (%) | SDR 3.0mm (%) | SDR 4.0mm (%) |
 |--------------|--------------:|----------:|----------:|----------:|----------:|
 | [Khalid et al. (2024)](https://doi.org/10.1016/j.eswa.2024.124840)  |  |  |  |  |  |
-| [Khan et al. (2024)](https://doi.org/10.1007/978-3-031-66958-3_1)  | 1.92 ± 7.85 | 78.44 | 85.47 | 89.49 | 94.44 |
+| [Khan et al. (2024)](https://doi.org/10.1007/978-3-031-66958-3_1)  | 1.92 ± 7.85 | 78.54 | 85.72 | 89.64 | 94.49 |
 | Khan et al. (2025)  | 1.69 ± 3.36  | 81.18 | 87.28 | 90.82 | 94.82 |
 
 The **baseline model** presented in Khan et al. (2025) forms the foundation of this dataset’s methodology. It achieves an overall MRE of 1.69 mm, with 81.18% of landmarks falling within the clinically acceptable threshold of 2.0 mm.
