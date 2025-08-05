@@ -1,7 +1,6 @@
 ## Results
 
-This section presents the results achieved by various models presented on this dataset. 
-The comparison table of the results achived by different models is listed in the table below. 
+This section reports the performance of different models evaluated on the Aariz cephalometric dataset. The comparative results are summarized in the table below, with metrics including Mean Radial Error (MRE) and Success Detection Rates (SDR) at clinically relevant thresholds (2.0 mm to 4.0 mm).
 
 | Paper        | MRE ± SD (mm)    | SDR 2.0mm (%) | SDR 2.5mm (%) | SDR 3.0mm (%) | SDR 4.0mm (%) |
 |--------------|--------------:|----------:|----------:|----------:|----------:|
@@ -9,14 +8,18 @@ The comparison table of the results achived by different models is listed in the
 | [Khan et al. (2024)](https://doi.org/10.1007/978-3-031-66958-3_1)  | 1.92 ± 7.85 | 78.44 | 85.47 | 89.49 | 94.44 |
 | Khan et al. (2025)  | 1.69 ± 3.36  | 81.18 | 87.28 | 90.82 | 94.82 |
 
-The baseline paper on the methodology for the dataset is Khan et al. (2025). The lanmdark wise results on the validation and test sets are listed in the below table. The metholofy achiedved an overall MRE of 1.69 mm with 81.18% of the landmarks lying in the clinically acceptable raneg of 2mm. The Top Performing Landmarks with MRE below 1.0 mm in either set are Me, Pog, S, Gn, UIT, Li, Ls, Sn, Pn. Four landmarks achieved a perfect 100% SDR in both sets. Landmarks with MRE > 2.0 mm in either set are N, Or, R, Ar, Co, Go, LPM, LMT, UPM, UMT. Yet, even these landmarks showed moderately strong SDRs (49%–87.34%) within 2.0 mm range.
+The baseline model presented in Khan et al. (2025) forms the foundation of this dataset’s methodology. It achieves an overall MRE of 1.69 mm, with 81.18% of landmarks falling within the clinically acceptable threshold of 2.0 mm.
 
-Landmark Categories Performance:
+### Category-wise Performance:
 - Soft-tissue landmarks: Excellent performance, all six had MRE below 2.0 mm.
 - Dental landmarks: Performed well, with only a few minor deviations.
 - Skeletal landmarks: Majority of MRE > 2.0 mm were found here.
 
-### Aariz Validation Set Results
+### Landmark Level Performance:
+- Top-Performing Landmarks: Landmarks with MRE < 1.0 mm in either validation or test sets include Me, Pog, S, Gn, UIT, Li, Ls, Sn, Pn. Notably, four landmarks reached 100% SDR in both sets.
+- Challenging Landmarks: Landmarks with MRE > 2.0 mm in either set include N, Or, R, Ar, Co, Go, LPM, LMT, UPM, UMT. Despite higher MREs, these still achieved moderate SDRs between 49.00% and 87.34% within the 2.0 mm range.
+
+#### Baseline -  Validation Set Results
 
 | Landmark | MRE ± SD (mm)     | SDR 2.0mm (%) | SDR 2.5mm (%) | SDR 3.0mm (%) | SDR 4.0mm (%) |
 |----------|---------------:|--------------:|--------------:|--------------:|--------------:|
@@ -52,9 +55,7 @@ Landmark Categories Performance:
 | Average  | 1.68 ± 3.52   | 82.11 | 87.79 | 91.20 | 95.40 |
 
 
-
-
-### Aariz Test Set Results
+### Baseline - Test Set Results
 
 | Landmark | MRE ± SD (mm)     | SDR 2.0mm (%) | SDR 2.5mm (%) | SDR 3.0mm (%) | SDR 4.0mm (%) |
 | -------- | -------------: | ------------: | ------------: | ------------: | ------------: |
