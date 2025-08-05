@@ -12,7 +12,7 @@ The **baseline model** presented in Khan et al. (2025) forms the foundation of t
 
 ### Category-wise Performance:
 - **Soft tissue landmarks**: Achieved excellent performance, with all six registering MRE < 2.0 mm.
-- **Dental landmarks**: Performed consistently well, with minor deviations exceeding the 2.0 mm threshold.
+- **Dental landmarks**: Performed consistently well, with only minor deviations exceeding the 2.0 mm threshold.
 - **Skeletal landmarks**: Were generally more difficult, with most of the MREs > 2.0 mm falling in this category.
 
 ### Landmark Level Performance:
