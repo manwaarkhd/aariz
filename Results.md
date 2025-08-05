@@ -55,7 +55,7 @@ The **baseline model** presented in Khan et al. (2025) forms the foundation of t
 | Average  | 1.68 ± 3.52   | 82.11 | 87.79 | 91.20 | 95.40 |
 
 
-### Baseline - Test Set Results
+#### Baseline - Test Set Results
 
 | Landmark | MRE ± SD (mm)     | SDR 2.0mm (%) | SDR 2.5mm (%) | SDR 3.0mm (%) | SDR 4.0mm (%) |
 | -------- | -------------: | ------------: | ------------: | ------------: | ------------: |
