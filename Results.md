@@ -8,16 +8,16 @@ This section reports the performance of different models evaluated on the Aariz 
 | [Khan et al. (2024)](https://doi.org/10.1007/978-3-031-66958-3_1)  | 1.92 ± 7.85 | 78.44 | 85.47 | 89.49 | 94.44 |
 | Khan et al. (2025)  | 1.69 ± 3.36  | 81.18 | 87.28 | 90.82 | 94.82 |
 
-The baseline model presented in Khan et al. (2025) forms the foundation of this dataset’s methodology. It achieves an overall MRE of 1.69 mm, with 81.18% of landmarks falling within the clinically acceptable threshold of 2.0 mm.
+The **baseline model** presented in Khan et al. (2025) forms the foundation of this dataset’s methodology. It achieves an overall MRE of 1.69 mm, with 81.18% of landmarks falling within the clinically acceptable threshold of 2.0 mm.
 
 ### Category-wise Performance:
-- Soft-tissue landmarks: Achieved excellent performance, with all six registering MRE < 2.0 mm.
-- Dental landmarks: Performed consistently well, with minor deviations exceeding the 2.0 mm threshold.
-- Skeletal landmarks: Were generally more difficult, with most of the MREs > 2.0 mm falling in this category.
+- **Soft tissue landmarks**: Achieved excellent performance, with all six registering MRE < 2.0 mm.
+- **Dental landmarks**: Performed consistently well, with minor deviations exceeding the 2.0 mm threshold.
+- **Skeletal landmarks**: Were generally more difficult, with most of the MREs > 2.0 mm falling in this category.
 
 ### Landmark Level Performance:
-- Top-Performing Landmarks: Landmarks with MRE < 1.0 mm in either validation or test sets include Me, Pog, S, Gn, UIT, Li, Ls, Sn, Pn. Notably, four landmarks reached 100% SDR in both sets.
-- Challenging Landmarks: Landmarks with MRE > 2.0 mm in either set include N, Or, R, Ar, Co, Go, LPM, LMT, UPM, UMT. Despite higher MREs, these still achieved moderate SDRs between 49.00% and 87.34% within the 2.0 mm range.
+- **Top-Performing Landmarks**: Landmarks with MRE < 1.0 mm in either validation or test sets include Me, Pog, S, Gn, UIT, Li, Ls, Sn, Pn. Notably, four landmarks reached 100% SDR in both sets.
+- **Challenging Landmarks**: Landmarks with MRE > 2.0 mm in either set include N, Or, R, Ar, Co, Go, LPM, LMT, UPM, UMT. Despite higher MREs, these still achieved moderate SDRs between 49.00% and 87.34% within the 2.0 mm range.
 
 #### Baseline -  Validation Set Results
 
