@@ -35,7 +35,7 @@ To facilitate the development of robust AI solutions for morphometric analysis, 
 
 This section presents the average performance on both the validation and test sets of the Aariz dataset, comparing several published methods with our proposed baseline model. The evaluation metrics include **Mean Radial Error (MRE)** with its **Standard Deviation (SD)**, and **Success Detection Rate (SDR)** at multiple clinically relevant thresholds (2.0 mm, 2.5 mm, 3.0 mm, and 4.0 mm). The best results for each metric are highlighted in bold. 
 
-| Paper        | MRE ± SD (mm)    | SDR 2.0mm (%) | SDR 2.5mm (%) | SDR 3.0mm (%) | SDR 4.0mm (%) |
+| Method        | MRE ± SD (mm)    | SDR 2.0mm (%) | SDR 2.5mm (%) | SDR 3.0mm (%) | SDR 4.0mm (%) |
 |--------------|--------------:|----------:|----------:|----------:|----------:|
 | [Khan et al.](https://doi.org/10.1007/978-3-031-66958-3_1) (2024) | 1.92 ± 7.85 | 78.54 | 85.72 | 89.64 | 94.49 |
 | [Khalid et al.](https://doi.org/10.1016/j.eswa.2024.124840) (2024)| 1.87 ± 4.01 | 75.17 | 82.43 | 88.78 | 93.01 |
