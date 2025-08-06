@@ -33,15 +33,15 @@ To facilitate the development of robust AI solutions for morphometric analysis, 
 
 # Results
 
-This section reports the performance of different models evaluated on the Aariz cephalometric dataset. The comparative results are summarized in the table below, with metrics including Mean Radial Error (MRE) and Success Detection Rates (SDR) at clinically relevant thresholds (2.0 mm to 4.0 mm).
+This section presents the average performance on both the validation and test sets of the Aariz dataset, comparing several published methods with our proposed baseline model. The evaluation metrics include **Mean Radial Error (MRE)** with its **Standard Deviation (SD)**, and **Success Detection Rate (SDR)** at multiple clinically relevant thresholds (2.0 mm, 2.5 mm, 3.0 mm, and 4.0 mm). The best results for each metric are highlighted in bold. 
 
 | Paper        | MRE ± SD (mm)    | SDR 2.0mm (%) | SDR 2.5mm (%) | SDR 3.0mm (%) | SDR 4.0mm (%) |
 |--------------|--------------:|----------:|----------:|----------:|----------:|
-| [Khalid et al. (2024)](https://doi.org/10.1016/j.eswa.2024.124840)  |  |  |  |  |  |
-| [Khan et al. (2024)](https://doi.org/10.1007/978-3-031-66958-3_1)  | 1.92 ± 7.85 | 78.54 | 85.72 | 89.64 | 94.49 |
-| Khan et al. (2025)  | 1.69 ± 3.36  | 81.18 | 87.28 | 90.82 | 94.82 |
+| [Khan et al.](https://doi.org/10.1007/978-3-031-66958-3_1) (2024) | 1.92 ± 7.85 | 78.54 | 85.72 | 89.64 | 94.49 |
+| [Khalid et al.](https://doi.org/10.1016/j.eswa.2024.124840) (2024)| 1.87 ± 4.01 | 75.17 | 82.43 | 88.78 | 93.01 |
+| [Khan et al.]()                                            (2025)*| **1.69 ± 3.36** | **81.18** | **87.28** | **90.82** | **94.82** |
 
-The **baseline model** presented in Khan et al. (2025) forms the foundation of this dataset’s methodology. It achieves an overall MRE of 1.69 mm, with 81.18% of landmarks falling within the clinically acceptable threshold of 2.0 mm.
+\* *Baseline model, currently under-review*
 
 ## Category-wise Performance:
 - **Soft tissue landmarks**: Achieved excellent performance, with all six registering MRE < 2.0 mm.
